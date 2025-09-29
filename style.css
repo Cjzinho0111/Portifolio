@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #1a1a1a, #3a3a3a);
+    color: #fff;
+  }
+
+  header {
+    background: #2c2c2c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+  }
+
+  header h1 {
+    margin: 0;
+    color: white;
+  }
+
+  nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    color: orange;
+  }
+
+  section {
+    padding: 50px;
+  }
+
+  h2 {
+    color: orange;
+    margin-bottom: 20px;
+    font-family: "Brush Script MT", cursive;
+    font-size: 32px;
+  }
+
+  .sobre {
+    display: flex;
+    align-items: center;
+  }
+
+  .sobre img {
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .softskills ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .softskills li {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+
+  /* Projetos */
+  .projetos-container {
+    justify-content: center;
+  }
+
+  .projeto-card {
+    background: #2c2c2c;
+    border-radius: 20px;
+    width: 300px;
+  display:inline-block;
+  margin: 0 20px;
+  }
+
+
+  .projeto-card img {
+    width: 100%;
+    height: 180px;
+  }
+
+  .projeto-info {
+    padding: 15px;
+  }
+
+  .projeto-info h3 {
+    margin: 5px 0;
+    color: orange;
+  }
+
+  .tags {
+    margin-top: 10px;
+  }
+
+  .tags span {
+    display: inline-block;
+    background: #444;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-right: 5px;
+  }
+
+  .projeto-links {
+    margin-top: 15px;
+  }
+
+  .projeto-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .projeto-links a:hover {
+    text-decoration: underline;
+  }
+
+  /* Contatos */
+  footer {
+    background: #2c2c2c;
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer p {
+    margin: 8px 0;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  footer a:hover {
+    color: orange;
+  }
+.ss{
+    text-align: center;
+    background-color:#444;
+}
+.cont{
+    background-color: #444;
+    text-align: left;
+
+}
+.mp{
+    background-color: #444;
+
+}
+.ali{
+    background-color: #444;
+    text-align: center;
+}
+.uii{
+    text-align: center;
+}
+.mpp{
+    background-color: #444;
+    padding: 10px 
+}
+.projeto-card{
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+  height: 350px;         
+  margin: 20pxpx
+}
